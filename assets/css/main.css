@@ -40,15 +40,18 @@ html {
   -webkit-text-size-adjust: 100%;
 }
 
-*{
-    font-family: "Vazirmatn";
+* {
+  font-family: "Vazirmatn";
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-family: "kalameh";
 }
 
-p, button {
+p,
+button {
   font-family: "mikhak";
 }
 
@@ -172,6 +175,11 @@ input[type="submit"] {
   -webkit-appearance: button;
   cursor: pointer;
 }
+
+input[type="submit"]:active {
+  color: #ff0;
+}
+
 button[disabled],
 html input[disabled] {
   cursor: default;
@@ -562,7 +570,7 @@ body {
   cursor: pointer;
 }
 .side-nav > li span {
-    font-family: "kalameh";
+  font-family: "kalameh";
   position: relative;
   top: 3px;
   left: 10px;
@@ -729,14 +737,14 @@ body {
   color: rgb(218, 218, 218);
 }
 .intro--options p {
-    margin-bottom: 0;
-    color: rgb(143, 143, 143);
-    transition: all ease 0.3s;
+  margin-bottom: 0;
+  color: rgb(143, 143, 143);
+  transition: all ease 0.3s;
 }
 
 .intro--options p:hover {
-    margin-bottom: 0;
-    color: rgb(218, 218, 218);
+  margin-bottom: 0;
+  color: rgb(218, 218, 218);
 }
 @media (max-width: 900px) {
   .intro--banner {
