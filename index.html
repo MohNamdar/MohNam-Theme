@@ -178,7 +178,7 @@
             <div class="hire">
               <h2>چه چیزی نیاز دارید؟</h2>
               <!-- checkout formspree.io for easy form setup -->
-              <form class="work-request">
+              <form class="work-request" action="https://formspree.io/f/mvoeedne" method="POST">
                 <div class="work-request--options">
                   <span class="options-a">
                     <input id="opt-1" type="checkbox" value="app design">
@@ -247,12 +247,12 @@
                 </div>
                 <div class="work-request--information">
                   <div class="information-name">
-                    <input id="name" type="text" spellcheck="false">
+                    <input id="name" type="text" spellcheck="false" name="name">
                     <label for="name">نام و نام خانوادگی</label>
                   </div>
                   <div class="information-email">
-                    <input id="email" type="tel" spellcheck="false">
-                    <label for="email">شماره تماس</label>
+                    <input id="phone" type="tel" spellcheck="false" name="phone">
+                    <label for="phone">شماره تماس</label>
                   </div>
                 </div>
                 <input type="submit" value="ارسال درخواست">
