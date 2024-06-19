@@ -12,10 +12,12 @@ h1,
 h2,
 h3 {
   font-family: "sahel";
+  text-align: right;
 }
 
 p,
 button {
+  text-align: right;
   font-family: "Vazirmatn";
 }
 
@@ -845,12 +847,14 @@ body {
   color: #858585;
 }
 .work--lockup .slider--item-title {
+  text-align: center;
   margin-top: 10px;
   font-size: 12px;
   font-weight: 700;
   text-transform: uppercase;
 }
 .work--lockup .slider--item-description {
+  text-align: center;
   display: none;
   max-width: 250px;
   margin: 0 auto;
@@ -1000,6 +1004,8 @@ body {
   }
 }
 .about--banner {
+  display: flex;
+  justify-content: end;
   position: relative;
   height: 475px;
 }
@@ -1074,7 +1080,7 @@ body {
 .about--banner img {
   position: absolute;
   bottom: -90px;
-  right: -12px;
+  left: -12px;
 }
 .about--options {
   display: -webkit-box;
